@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39a60d6a493c6754bb9484ee744e6f7b, type: 3}
+  m_Name: Item_Food
+  m_EditorClassIdentifier: 
+  id: 301
+  name: "\u8611\u83C7"
+  itemType: 1
+  description: "\u8BA9\u4F60\u8111\u5B50\u66F4\u6E05\u9192"
+  propertyList:
+  - propertyType: 1
+    value: 10
+  - propertyType: 2
+    value: 40
+  icon: {fileID: 21300000, guid: 447ea3bc99e6d07459569218999259da, type: 3}
+  prefab: {fileID: 5512107571691712295, guid: 4e39b0fb88bd52140886d09018552ec6, type: 3}
