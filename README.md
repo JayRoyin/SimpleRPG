@@ -13,7 +13,7 @@
 
 ## 开发工具 & 技术栈
 
-- | Syntax       | Description | 
+| Syntax       | Description | 
 | :---           |    :----:   | 
 | **游戏引擎**	 | Unity       |
 | **编程语言**   | C#、JSON      |
