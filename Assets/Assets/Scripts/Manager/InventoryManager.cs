@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.VersionControl;
 using UnityEngine;
 
@@ -17,8 +18,23 @@ public class InventoryManager : MonoBehaviour
     }
 
     public List<ItemSO> itemList;
-    //public ItemSO defaultWeapon;
+    public ItemSO defaultWeapon;
 
+    //IEnumerator  Start()
+    //{
+    //    yield return new WaitForSeconds(5f);
+    //    if (Input.GetKeyDown(KeyCode.L))
+    //    {
+    //        AddItem(defaultWeapon);
+    //    }
+    //}
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            AddItem(defaultWeapon);
+        }
+    }
     public void AddItem(ItemSO item)
     {
         itemList.Add(item);

@@ -14,17 +14,17 @@ public class Player : MonoBehaviour
 
     public void UseItem(ItemSO itemSO)
     {
-        //switch (itemSO.itemType)
-        //{
-        //    case ItemType.Weapon:
-        //        playerAttack.LoadWeapon(itemSO);
-        //        break;
-        //    case ItemType.Consumable:
-        //        playerProperty.UseDrug(itemSO);
-        //        break;
-        //    default:
-        //        break;
-        //}
+        switch (itemSO.itemType)
+        {
+            case ItemType.Weapon:
+                playerAttack.LoadWeapon(itemSO);
+                break;
+            case ItemType.Consumable:
+                playerProperty.UseDrug(itemSO);
+                break;
+            default:
+                break;
+        }
     }
 
 }
